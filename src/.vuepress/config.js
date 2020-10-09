@@ -18,7 +18,10 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    [
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+    ],
   ],
 
   /**
@@ -35,43 +38,43 @@ module.exports = {
     nav: [
       {
         text: 'お知らせ',
-        link: '/news/'
+        link: '/news/',
       },
       {
         text: 'Twinkleを開く',
-        link: 'https://twinkle.nandenjin.com'
-      }
+        link: 'https://twinkle.nandenjin.com',
+      },
     ],
     sidebar: {
       '/guide/': [
         {
           title: 'Guide',
           collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
+          children: ['', 'using-vue'],
+        },
       ],
-    }
+    },
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    ['@vuepress/blog', {
-      directories: [
-        {
-          id: 'news',
-          dirname: '_news',
-          path: '/news/',
-          layout: 'IndexNews',
-          itemLayout: 'News'
-        }
-      ]
-    }],
+    [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            id: 'news',
+            dirname: '_news',
+            path: '/news/',
+            layout: 'IndexNews',
+            itemLayout: 'News',
+          },
+        ],
+      },
+    ],
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
 }

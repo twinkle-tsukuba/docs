@@ -10,7 +10,8 @@ import SideBar from '@parent-theme/components/SideBar'
 
 export default {
   components: {
-    NavBar, SideBar
-  }
+    NavBar,
+    SideBar,
+  },
 }
 </script>
