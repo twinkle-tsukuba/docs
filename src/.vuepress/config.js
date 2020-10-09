@@ -34,16 +34,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'お知らせ',
+        link: '/news/'
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Twinkleを開く',
+        link: 'https://twinkle.nandenjin.com'
       }
     ],
     sidebar: {
@@ -64,6 +60,17 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
+    ['@vuepress/blog', {
+      directories: [
+        {
+          id: 'news',
+          dirname: '_news',
+          path: '/news/',
+          layout: 'IndexNews',
+          itemLayout: 'News'
+        }
+      ]
+    }],
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
   ]
