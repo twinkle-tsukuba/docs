@@ -24,6 +24,6 @@
   },
   "private": true,
   "dependencies": {
-    "@vuepress/plugin-blog": "^1.9.2"
+    "@vuepress/plugin-blog": "^1.9.3"
   }
 }
