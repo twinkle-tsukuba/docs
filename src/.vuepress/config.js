@@ -70,6 +70,7 @@ module.exports = {
             path: '/news/',
             layout: 'IndexNews',
             itemLayout: 'News',
+            itemPermalink: '/news/:slug',
           },
         ],
       },
