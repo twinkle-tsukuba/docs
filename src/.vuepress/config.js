@@ -73,6 +73,15 @@ module.exports = {
             itemPermalink: '/news/:slug',
           },
         ],
+        frontmatters: [
+          {
+            id: 'tags',
+            keys: ['tags'],
+            path: '/tags/',
+            layout: 'Tags',
+            scopeLayout: 'Tag',
+          },
+        ],
       },
     ],
     '@vuepress/plugin-back-to-top',

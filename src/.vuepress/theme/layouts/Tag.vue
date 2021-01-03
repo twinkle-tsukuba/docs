@@ -1,16 +1,13 @@
 <template>
   <div>
     <Navbar />
-
     <main class="theme-default-content">
-      <h1>{{ $page.title }}</h1>
-      {{ $frontmatter.date }}
+      <h1>{{ $currentTags.scope }}: {{ $currentTags.key }}</h1>
       <ul>
-        <li v-for="tag of $frontmatter.tags" :key="tag">
-          <router-link :to="`/tags/${tag}`">{{ tag }}</router-link>
+        <li v-for="page of $currentTags.pages" :key="page.key">
+          <a :href="page.path">{{ page.title }}</a>
         </li>
       </ul>
-      <Content />
     </main>
   </div>
 </template>
