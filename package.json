@@ -26,7 +26,7 @@
   },
   "private": true,
   "dependencies": {
-    "@vuepress/plugin-blog": "^1.9.3"
+    "@vuepress/plugin-blog": "^1.9.4"
   },
   "husky": {
     "hooks": {
