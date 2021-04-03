@@ -22,6 +22,9 @@ module.exports = {
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://app.twinkle.nandenjin.com/favicon-16.png', size: '16x16' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://app.twinkle.nandenjin.com/favicon-32.png', size: '32x32' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://app.twinkle.nandenjin.com/favicon-128.png', size: '128x128' }],
   ],
 
   /**
