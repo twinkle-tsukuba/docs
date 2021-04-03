@@ -42,7 +42,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
+@require '../../styles/palette.styl';
+
 .article-info {
   margin: 15px 0 25px;
 }
@@ -64,7 +66,7 @@ export default {
       padding: 3px 5px;
       margin-right: 5px;
       background-color: #eee;
-      color: #3eaf7c;
+      color: $accentColor;
       font: normal 13px monospace;
       line-height: 1em;
       display: inline-block;
