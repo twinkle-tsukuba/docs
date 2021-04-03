@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Twinkle, A tool to sync course schedule and Google Calendar
-actionText: Quick Start →
-actionLink: /guide/
+heroImage: https://app.twinkle.nandenjin.com/bldg-cl.png
+tagline: 授業情報とカレンダーのリンクツール
+actionText: ツールを開く
+actionLink: https://twinkle.nandenjin.com
 features:
-  - title: Feature 1 Title
-    details: Feature 1 Description
-  - title: Feature 2 Title
-    details: Feature 2 Description
-  - title: Feature 3 Title
-    details: Feature 3 Description
-footer: Made by Kazumi Inada with ❤️
+  - title: 予定を一箇所で管理
+    details: Googleカレンダーに対応、TWINSの時間割データを一括登録
+  - title: 時間割の仮組みにも
+    details: 授業名・科目番号でかんたん検索・チェック
+  - title: パスワード入力不要
+    details: TWINSのログイン不要、セキュリティを確保
+footer: このアプリケーションは、筑波大学の履修システムと連携して動作する非公式のツールです。
 ---
