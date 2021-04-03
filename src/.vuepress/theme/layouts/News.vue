@@ -7,7 +7,11 @@
       <div class="article-info">
         <span class="publish-date">{{ publishDateString }}</span>
         <ul class="tag-list">
-          <li class="tag-list__item" v-for="tag of $frontmatter.tags" :key="tag">
+          <li
+            class="tag-list__item"
+            v-for="tag of $frontmatter.tags"
+            :key="tag"
+          >
             <router-link :to="`/tags/${tag}`">{{ tag }}</router-link>
           </li>
         </ul>
@@ -29,7 +33,7 @@ export default {
       const dateStr = this.$frontmatter.date
       if (dateStr) {
         const d = new Date(dateStr)
-        return `${d.getFullYear()}.${(d.getMonth() + 1)}.${d.getDate()}`
+        return `${d.getFullYear()}.${d.getMonth() + 1}.${d.getDate()}`
       } else {
         return null
       }
