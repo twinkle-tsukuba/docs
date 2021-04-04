@@ -73,7 +73,7 @@ module.exports = {
       },
       {
         text: 'Twinkleを開く',
-        link: 'https://twinkle.nandenjin.com',
+        link: 'https://app.twinkle.nandenjin.com',
       },
     ],
     sidebar: {
