@@ -89,5 +89,11 @@ module.exports = {
     ],
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    [
+      'vuepress-plugin-seo',
+      {
+        image: () => 'https://app.twinkle.nandenjin.com/twinkle-ogp-cover.png'
+      }
+    ]
   ],
 }
