@@ -77,7 +77,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/guide/': ['what-is-this', 'registering'],
+      '/guide/': ['what-is-this', 'registering', 'select-google-calendar'],
     },
   },
 
