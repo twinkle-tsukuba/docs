@@ -2,8 +2,8 @@
 home: true
 heroImage: https://app.twinkle.nandenjin.com/bldg-cl.png
 tagline: 授業情報とカレンダーのリンクツール
-actionText: ツールを開く
-actionLink: https://twinkle.nandenjin.com
+actionText: 使い方を見る
+actionLink: /guide/what-is-this
 features:
   - title: 予定を一箇所で管理
     details: Googleカレンダーに対応、TWINSの時間割データを一括登録
