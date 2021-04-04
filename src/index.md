@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://app.twinkle.nandenjin.com/bldg-cl.png
+heroImage: https://storage.googleapis.com/twinkle-resouces/common/bldg-cl.png
 tagline: 授業情報とカレンダーのリンクツール
 actionText: 使い方を見る
 actionLink: /guide/what-is-this
