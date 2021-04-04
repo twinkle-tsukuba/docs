@@ -5,7 +5,12 @@
       <h1>お知らせ</h1>
       <ul>
         <li v-for="page of $pagination.pages" :key="page.key">
-          <a :href="page.path"><span class="publish-date">{{ formatDate(page.frontmatter.date) }}</span><span>{{ page.title }}</span></a>
+          <a :href="page.path"
+            ><span class="publish-date">{{
+              formatDate(page.frontmatter.date)
+            }}</span
+            ><span>{{ page.title }}</span></a
+          >
         </li>
       </ul>
     </main>
@@ -22,9 +27,9 @@ export default {
   methods: {
     formatDate(dateStr) {
       const d = new Date(dateStr)
-      return `${d.getFullYear()}.${(d.getMonth() + 1)}.${d.getDate()}`
-    }
-  }
+      return `${d.getFullYear()}.${d.getMonth() + 1}.${d.getDate()}`
+    },
+  },
 }
 </script>
 

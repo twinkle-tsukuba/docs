@@ -27,7 +27,8 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/png',
-        href: 'https://storage.googleapis.com/twinkle-resouces/common/favicon-16.png',
+        href:
+          'https://storage.googleapis.com/twinkle-resouces/common/favicon-16.png',
         size: '16x16',
       },
     ],
@@ -36,7 +37,8 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/png',
-        href: 'https://storage.googleapis.com/twinkle-resouces/common/favicon-32.png',
+        href:
+          'https://storage.googleapis.com/twinkle-resouces/common/favicon-32.png',
         size: '32x32',
       },
     ],
@@ -45,7 +47,8 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/png',
-        href: 'https://storage.googleapis.com/twinkle-resouces/common/favicon-128.png',
+        href:
+          'https://storage.googleapis.com/twinkle-resouces/common/favicon-128.png',
         size: '128x128',
       },
     ],
@@ -114,7 +117,8 @@ module.exports = {
     [
       'vuepress-plugin-seo',
       {
-        image: () => 'https://storage.googleapis.com/twinkle-resouces/common/ogp-cover.png',
+        image: () =>
+          'https://storage.googleapis.com/twinkle-resouces/common/ogp-cover.png',
       },
     ],
   ],
