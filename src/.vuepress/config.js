@@ -57,10 +57,10 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    repo: 'nandenjin/twinkle-docs',
+    editLinks: true,
+    docsDir: 'src',
+    editLinkText: 'このページの編集をご提案ください。',
     lastUpdated: false,
     nav: [
       {
