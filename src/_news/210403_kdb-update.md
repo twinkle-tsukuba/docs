@@ -3,6 +3,8 @@ title: 2021年度開設科目に対応しました
 tags:
   - release
   - kdb
+  - keyaki
+  - suzukake
 date: 2021-04-03
 ---
 
