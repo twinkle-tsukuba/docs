@@ -2,7 +2,7 @@
 
 ![](/src/assets/bldg-cl.png)
 
-# <img src="/src/assets/logo.svg" alt="Twinkle" width="250">
+# <img src="./src/assets/logo.svg" alt="Twinkle" width="250">
 
 Documentations for Twinkle
 
