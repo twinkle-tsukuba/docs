@@ -1,5 +1,3 @@
-const { description } = require('../../package')
-
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -8,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: '授業予定をカレンダーに読み込み。科目検索やシラバス参照にも対応。筑波大向けの履修管理ツール',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`

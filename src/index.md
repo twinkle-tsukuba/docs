@@ -1,7 +1,8 @@
 ---
 home: true
+title: 筑波大生のための履修設計ツール Twinkle
 heroImage: https://storage.googleapis.com/twinkle-resouces/common/bldg-cl.png
-tagline: 授業情報とカレンダーのリンクツール
+tagline: 筑波大生のための履修設計ツール
 actionText: 使い方を見る
 actionLink: /guide/what-is-this
 features:
