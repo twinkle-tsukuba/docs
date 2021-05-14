@@ -6,4 +6,4 @@ updates:
     assignees:
       - nandenjin
     schedule:
-      interval: daily
+      interval: weekly
