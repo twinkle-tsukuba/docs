@@ -2,5 +2,6 @@
   "extends": [
     "config:base"
   ],
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "labels": ["dependencies"]
 }
