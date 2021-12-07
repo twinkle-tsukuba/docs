@@ -1,9 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: npm
-    directory: /
-    open-pull-requests-limit: 10
-    assignees:
-      - nandenjin
-    schedule:
-      interval: weekly
