@@ -29,7 +29,7 @@
   "private": true,
   "dependencies": {
     "@vuepress/plugin-blog": "1.9.4",
-    "vuepress-plugin-seo": "0.1.4"
+    "vuepress-plugin-seo": "0.2.0"
   },
   "husky": {
     "hooks": {
