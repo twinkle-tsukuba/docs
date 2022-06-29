@@ -15,6 +15,6 @@
       "automergeType": "branch"
     }
   ],
-  "labels": ["dependencies"]
+  "labels": ["dependencies"],
   "lockFileMaintenance": { "enabled": true }
 }
