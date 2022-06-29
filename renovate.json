@@ -15,6 +15,7 @@
       "automergeType": "branch"
     }
   ],
+  "stabilityDays": 7,
   "labels": ["dependencies"],
   "lockFileMaintenance": { "enabled": true }
 }
