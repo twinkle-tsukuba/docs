@@ -4,10 +4,17 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance"
+      ],
       "automerge": true,
       "automergeType": "branch"
     }
   ],
   "labels": ["dependencies"]
+  "lockFileMaintenance": { "enabled": true }
 }
