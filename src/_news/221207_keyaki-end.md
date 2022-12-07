@@ -1,7 +1,6 @@
 ---
 title: "keyaki" の運用を終了します
-tags:
-  - keyaki
+tags: [keyaki]
 date: 2022-12-07
 ---
 
