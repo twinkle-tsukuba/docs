@@ -15,8 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-          cache: yarn
+          node-version: 16.x
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Lint
@@ -30,8 +29,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-          cache: yarn
+          node-version: 16.x
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build
