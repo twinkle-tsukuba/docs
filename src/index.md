@@ -3,8 +3,8 @@ home: true
 title: 筑波大生のための履修設計ツール Twinkle
 heroImage: https://storage.googleapis.com/twinkle-resouces/common/bldg-cl.png
 tagline: 筑波大生のための履修設計ツール
-actionText: 使い方を見る
-actionLink: /guide/what-is-this
+actionText: いますぐ使う
+actionLink: https://app.twinkle.nandenjin.com
 features:
   - title: 予定を一箇所で管理
     details: Googleカレンダーに対応、TWINSの時間割データを一括登録
