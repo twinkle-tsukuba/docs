@@ -16,7 +16,7 @@
   },
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
-    "eslint": "8.45.0",
+    "eslint": "8.46.0",
     "eslint-config-prettier": "8.9.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
