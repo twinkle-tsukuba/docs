@@ -24,7 +24,7 @@
     "prettier": "3.0.1",
     "sass": "1.65.1",
     "sass-loader": "13.3.2",
-    "vuepress": "1.9.9"
+    "vuepress": "1.9.10"
   },
   "private": true,
   "dependencies": {
