@@ -23,7 +23,7 @@
     "npm-run-all2": "6.1.2",
     "prettier": "3.2.5",
     "sass": "1.74.1",
-    "sass-loader": "13.3.3",
+    "sass-loader": "14.1.1",
     "vuepress": "1.9.10"
   },
   "private": true,
