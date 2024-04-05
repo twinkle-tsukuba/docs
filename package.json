@@ -9,12 +9,13 @@
   },
   "repository": "https://github.com/nandenjin/twinkle-docs.git/twinkle-docs",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
     "lint": "eslint --ext js .",
     "format": "prettier . --write"
   },
   "license": "CC-BY-SA-4.0",
+  "type": "module",
   "devDependencies": {
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
@@ -23,13 +24,12 @@
     "npm-run-all2": "6.1.2",
     "prettier": "3.2.5",
     "sass": "1.72.0",
-    "sass-loader": "13.3.3",
-    "vuepress": "1.9.10"
+    "sass-loader": "13.3.3"
   },
   "private": true,
   "dependencies": {
-    "@vuepress/plugin-blog": "1.9.4",
-    "vuepress-plugin-seo": "0.2.0"
+    "vitepress": "1.0.2",
+    "vitepress-plugin-auto-sidebar": "1.2.0"
   },
   "husky": {
     "hooks": {
