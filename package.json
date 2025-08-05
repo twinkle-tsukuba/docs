@@ -29,7 +29,7 @@
   },
   "private": true,
   "dependencies": {
-    "vitepress": "1.6.3",
+    "vitepress": "1.6.4",
     "vitepress-plugin-auto-sidebar": "1.3.5"
   },
   "husky": {
