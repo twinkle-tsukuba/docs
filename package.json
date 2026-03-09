@@ -18,8 +18,8 @@
   "license": "CC-BY-SA-4.0",
   "type": "module",
   "devDependencies": {
-    "@eslint/js": "^9.1.1",
-    "eslint": "9.39.3",
+    "@eslint/js": "^10.0.0",
+    "eslint": "10.0.3",
     "eslint-config-prettier": "10.1.8",
     "husky": "9.1.7",
     "lint-staged": "15.5.2",
